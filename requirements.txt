@@ -1,2 +1,2 @@
 pandas
-lichess
+berserk
