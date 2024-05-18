@@ -1,2 +1,3 @@
 pandas
 berserk
+"lichess_api_key"

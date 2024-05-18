@@ -20,7 +20,7 @@ mydata_df = pd.json_normalize(mydata).transpose()
 # history 
 myhistoy = client.users.get_rating_history("Trequartistaa")
 myhistoy_df = pd.json_normalize(myhistoy)
-#print(myhistoy_df)
+print(myhistoy_df)
 
 # top 10 
 top10_players = client.users.get_all_top_10()
@@ -31,4 +31,5 @@ top10_rapid = pd.json_normalize(top10_players, record_path="rapid")
 top10_blitz = pd.json_normalize(top10_players, record_path="blitz") 
 top10_classic = pd.json_normalize(top10_players, record_path="classical") 
 top10_ultrabullet = pd.json_normalize(top10_players, record_path="ultraBullet") 
- 
+
+# top 10 bullet public data
